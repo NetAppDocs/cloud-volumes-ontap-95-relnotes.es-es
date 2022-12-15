@@ -1,0 +1,269 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: Cloud Volumes ONTAP 9.5 incluye varias funciones y mejoras nuevas. 
+---
+= Novedades de Cloud Volumes ONTAP 9.5
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes ONTAP 9.5 incluye varias funciones y mejoras nuevas.
+
+
+NOTE: También se incluyen funciones y mejoras adicionales en las versiones más recientes de Cloud Manager. Consulte https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Notas de la versión de Cloud Manager"^] para obtener más detalles.
+
+
+
+== 9.5 P11 (6 de marzo de 2020)
+
+La versión de revisión 9.5 P11 para Cloud Volumes ONTAP ya está disponible a través de Cloud Manager 3.8 y versiones posteriores. Cloud Manager le solicitará que actualice sus sistemas existentes a esta versión de revisión. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P11["Consulte la lista de errores corregidos en el parche P11"^] (Se requiere inicio de sesión en el sitio de soporte de NetApp).
+
+
+
+== 9.5 P10 (12 de enero de 2020)
+
+La versión de revisión 9.5 P10 para Cloud Volumes ONTAP ya está disponible a través de Cloud Manager. Cloud Manager le solicitará que actualice sus sistemas existentes a esta versión de revisión. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P10["Consulte la lista de errores corregidos en el parche P10"^] (Se requiere inicio de sesión en el sitio de soporte de NetApp).
+
+
+
+== Parche 9.5 P9 (17 de noviembre de 2019)
+
+La versión de revisión 9.5 P9 para Cloud Volumes ONTAP ya está disponible a través de Cloud Manager. Cloud Manager le solicitará que actualice sus sistemas existentes a esta versión de revisión. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P9["Consulte la lista de errores corregidos en el parche P9"^] (Se requiere inicio de sesión en el sitio de soporte de NetApp).
+
+
+
+== Parche 9.5 P8 (6 de octubre de 2019)
+
+La versión de parche 9.5 P8 para Cloud Volumes ONTAP ya está disponible. Cloud Manager le solicitará que actualice sus sistemas existentes a esta versión de revisión. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P8["Consulte la lista de errores corregidos en el parche P8"^] (Se requiere inicio de sesión en el sitio de soporte de NetApp).
+
+
+
+== Parche 9.5 P6 (16 de julio de 2019)
+
+La versión de parche 9.5 P6 para Cloud Volumes ONTAP ya está disponible. Cloud Manager le solicitará que actualice sus sistemas existentes a esta versión de revisión. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P6["Consulte la lista de errores corregidos en el parche P6"^] (Se requiere inicio de sesión en el sitio de soporte de NetApp).
+
+
+NOTE: Cloud Manager solicita que actualice a versiones específicas de parches de ONTAP que incluyen correcciones importantes para Cloud Volumes ONTAP. Por eso es posible que note una brecha entre las versiones de parches en estas notas de la versión. Hemos incluido únicamente los parches que Cloud Manager pone a su disposición.
+
+
+
+== Parche 9.5 P4 (16 de mayo de 2019)
+
+Ya está disponible la versión de parche 9.5 P4 para Cloud Volumes ONTAP. Cloud Manager le solicitará que actualice sus sistemas existentes a esta versión de revisión. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P4["Consulte la lista de errores corregidos en el parche P4"^] (Se requiere inicio de sesión en el sitio de soporte de NetApp).
+
+
+
+== Compatibilidad con el entorno AWS C2S (2 de mayo de 2019)
+
+Cloud Volumes ONTAP 9.5 y Cloud Manager 3.6.4 ya están disponibles para EE. UU La comunidad de inteligencia (IC) a través del entorno AWS de servicios de cloud comercial (C2S). Puede poner en marcha pares de alta disponibilidad y sistemas de nodo único en C2S.
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws-c2s.html["Póngase en marcha en el entorno AWS C2S"^]
+
+
+
+== Parche de 9.5 P3 (25 de abril de 2019)
+
+La versión de parche 9.5 P3 para Cloud Volumes ONTAP ya está disponible. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P3["Consulte la lista de errores corregidos en el parche P3"^] (Se requiere inicio de sesión en el sitio de soporte de NetApp).
+
+
+
+== 9.5 parche P2 (10 de abril de 2019)
+
+La versión de parche 9.5 P2 para Cloud Volumes ONTAP ya está disponible. Esta revisión incluye correcciones de errores, así como compatibilidad con Flash Cache con los nuevos tipos de instancias de AWS EC2. Cloud Manager le solicitará que actualice sus sistemas existentes a esta versión de revisión.
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P2["Haga clic aquí para ver los errores corregidos en el parche P2"^] (Se requiere inicio de sesión en el sitio de soporte de NetApp).
+
+
+
+=== Compatibilidad de Flash Cache con nuevos tipos de instancias de EC2
+
+Los siguientes tipos de instancias de EC2 ahora se admiten con las licencias Premium y BYOL:
+
+* c5d.4 x grande
+* c5d.9xlarge
+* r5d.2xgrande
+
+
+Estos tipos de instancias incluyen almacenamiento NVMe local, que Cloud Volumes ONTAP utiliza como _Flash Cache_. Flash Cache acelera el acceso a los datos mediante el almacenamiento en caché inteligente en tiempo real de datos recientes de usuarios y metadatos de NetApp. Es efectivo para cargas de trabajo de lectura intensiva aleatoria, como bases de datos, correo electrónico y servicios de archivos.
+
+La compresión debe deshabilitarse en todos los volúmenes para aprovechar las mejoras de rendimiento de Flash Cache. No puede seleccionar eficiencia de almacenamiento al crear un volumen desde Cloud Manager o puede crear un volumen y, a continuación, hacerlo http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-vsmg/GUID-8508A4CB-DB43-4D0D-97EB-859F58B29054.html["Deshabilite la compresión de datos mediante la CLI"^].
+
+
+NOTE: Cloud Volumes ONTAP no admite el recalentamiento de la caché después de un reinicio.
+
+
+
+== Soporte DE ALTA DISPONIBILIDAD en la región Azure Central US (25 de marzo de 2019)
+
+Ahora se admiten pares de ALTA DISPONIBILIDAD en la región central de EE. UU. En Azure.
+
+https://cloud.netapp.com/cloud-volumes-global-regions["Consulte la lista completa de las regiones de Azure admitidas"^].
+
+
+
+== 9.5 parche P1 (18 de marzo de 2019)
+
+La versión del parche P1 9.5 para Cloud Volumes ONTAP ya está disponible para todas las configuraciones. Cloud Manager le solicitará que actualice sus sistemas existentes a esta versión de revisión.
+
+Si ya tiene un par de alta disponibilidad en Azure, NetApp se pondrá en contacto con usted para ayudarle a aplicar la versión de revisión P1.
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P1["Haga clic aquí para ver los errores corregidos en el parche P1"^] (Se requiere inicio de sesión en el sitio de soporte de NetApp).
+
+
+
+== Cloud Volumes ONTAP ha es ahora GA en Azure (18 de marzo de 2019)
+
+Con el lanzamiento del parche 9.5 P1, los pares de alta disponibilidad en Azure ya están disponibles (GA) de forma general. Ya no se necesita una licencia de Vista previa.
+
+La versión de GA está disponible en la mayoría de regiones de Azure con la excepción de lo siguiente:
+
+* Estados Unidos Central
+* Centro Norte de Estados Unidos
+* Regiones de la gobernadora DE ESTADOS Unidos
+* Oeste de EE. UU
+* Centro Oeste de Estados Unidos
+
+
+En estas regiones, el mantenimiento puede impedir la creación de Cloud Volumes ONTAP y evitar que se produzca la conmutación por error. Tenemos previsto apoyar estas regiones tan pronto como finalice el mantenimiento.
+
+https://cloud.netapp.com/cloud-volumes-global-regions["Consulte una lista completa de las regiones de Azure compatibles"^].
+
+
+
+== 9.5 GA para AWS y Azure (4 de febrero de 2019)
+
+La versión de disponibilidad general (GA) de Cloud Volumes ONTAP 9.5 ahora está disponible en AWS y Microsoft Azure (para sistemas de un solo nodo en Azure). La versión de GA incluye correcciones de estabilidad, funciones nuevas y obsoletas en AWS y un cambio en los límites de capacidad del sistema.
+
+
+
+=== Límite de capacidad de 368 TB para todas las configuraciones Premium y BYOL
+
+El límite de capacidad del sistema para Cloud Volumes ONTAP Premium y BYOL tiene ahora 368 TB en todas las configuraciones: Nodo único y alta disponibilidad tanto en AWS como en Azure.
+
+En algunas configuraciones, los límites de discos impiden que se alcance el límite de capacidad de 368 TB usando solo discos. En estos casos, es posible alcanzar el límite de capacidad de 368 TB mediante https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["organización en niveles de los datos inactivos en el almacenamiento de objetos"^]. Por ejemplo, un sistema de un solo nodo en Azure podría tener 252 TB de capacidad basada en disco, lo que permitiría hasta 116 TB de datos inactivos en almacenamiento de Azure Blob.
+
+Para obtener más información acerca de los límites de disco, consulte link:reference-storage-limits.html["límites de almacenamiento"].
+
+
+
+=== Compatibilidad con instancias M5 y R5 en AWS
+
+Cloud Volumes ONTAP ahora es compatible con varios tipos de instancia de las familias M5 y R5:
+
+[cols="4*"]
+|===
+| Explorar | Estándar | Premium | BYOL 
+
+
+| m5.xlarge  a| 
+* m5,2xgrande
+* r5.xlarge
+
+ a| 
+* m5.4xgrande
+* r5,2xgrande
+
+ a| 
+* m5.xlarge
+* m5,2xgrande
+* m5.4xgrande
+* r5.xlarge
+* r5,2xgrande
+
+
+|===
+Estas instancias utilizan un hipervisor basado en tecnología KVM. Como resultado, las instancias admiten un número más pequeño de discos de datos que otros tipos de instancias: Hasta 24 discos de datos para sistemas de un solo nodo y 21 discos de datos para pares de alta disponibilidad. link:reference-storage-limits.html["Obtenga información sobre los límites de almacenamiento"].
+
+Más información acerca de https://aws.amazon.com/ec2/instance-types/m5/["Instancias M5"^] y.. https://aws.amazon.com/ec2/instance-types/r5/["Instancias de R5"^].
+
+
+
+=== Soporte para el cifrado de volúmenes de NetApp en AWS
+
+https://www.netapp.com/us/media/ds-3899.pdf["Cifrado de volúmenes de NetApp (NVE)"^] es una tecnología basada en software para el cifrado de datos en reposo de un volumen a la vez. Se cifran datos, copias Snapshot y metadatos. El acceso a los datos se proporciona mediante una clave XTS-AES-256 exclusiva, una por volumen.
+
+En este momento, Cloud Volumes ONTAP admite el cifrado de volúmenes de NetApp con un servidor de gestión de claves externo. No se admite un administrador de claves incorporado. Los administradores de claves compatibles se encuentran en la http://mysupport.netapp.com/matrix["Herramienta de matriz de interoperabilidad de NetApp"^] Bajo la solución *Key Managers*.
+
+Debe configurar el cifrado de volúmenes de NetApp desde la interfaz de línea de comandos. A continuación, puede usar la interfaz de línea de comandos o System Manager para habilitar el cifrado en volúmenes específicos. Cloud Manager no es compatible con el cifrado de volúmenes de NetApp desde la interfaz de usuario y desde las API de.
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-volumes.html["Descubra cómo configurar el cifrado de volúmenes de NetApp"^]
+
+
+NOTE: El cifrado de volúmenes de NetApp es una tecnología de cifrado diferente al del cifrado Cloud Volumes ONTAP, que cifra datos en el nivel del agregado y ahora queda obsoleto. No es posible realizar una actualización entre estas dos tecnologías de cifrado. Consulte <<Funciones obsoletas en AWS>> si quiere más información.
+
+
+
+=== Funciones obsoletas en AWS
+
+En la versión 9.5 ya no se admiten dos funciones.
+
+
+
+==== El cifrado a nivel de agregado de Cloud Volumes ONTAP ahora solo admite el cifrado de discos nativo de AWS
+
+El cifrado de datos en reposo de agregados mediante gestores de claves externos ya no es compatible. Si actualmente utiliza esta función y desea actualizar, debe iniciar un nuevo sistema 9.5 y, a continuación, https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["replicar datos"] para ese sistema.
+
+El cifrado de datos en reposo sigue siendo compatible mediante otros métodos. Puede cifrar datos con el cifrado de volúmenes de NetApp o con el servicio de gestión de claves (KMS) de AWS. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-security.html["Obtenga más información sobre el cifrado de datos en reposo"^].
+
+
+
+==== c4.2xlarge ya no es compatible
+
+El tipo de instancia c4.2xLarge no es compatible con la versión 9.5. Si actualmente utiliza este tipo de instancia, primero debe hacerlo https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-change-ec2-instance.html["cambie a un nuevo tipo de instancia"] antes de actualizar a la versión 9.5.
+
+
+
+== 9.5 RC1 para Azure (4 de diciembre de 2018)
+
+Cloud Volumes ONTAP 9.5 RC1 ya está disponible en Microsoft Azure. La versión 9.5 estará disponible en AWS más adelante.
+
+
+
+=== Vista previa de pares de alta disponibilidad en Microsoft Azure
+
+Ya está disponible una vista previa de los pares de alta disponibilidad de Cloud Volumes ONTAP en Microsoft Azure. Un par de alta disponibilidad proporciona fiabilidad a nivel empresarial y operaciones continuas en caso de fallos en su entorno cloud. De forma similar a un clúster de ONTAP físico, se comparte el almacenamiento de un par de alta disponibilidad de Azure entre los dos nodos.
+
+Los pares de ALTA DISPONIBILIDAD en Azure están disponibles como vista previa. Puede solicitar una licencia de vista previa poniéndose en contacto con nosotros en ng-Cloud-Volume-ONTAP-preview@netapp.com.
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-ha-azure.html["Obtenga más información sobre las parejas de alta disponibilidad en Azure"^].
+
+
+
+=== Rendimiento mejorado de las redes en Azure
+
+Ya se pueden habilitar sistemas Cloud Volumes ONTAP con https://docs.microsoft.com/en-us/azure/virtual-network/create-vm-accelerated-networking-cli["Redes aceleradas"^] En Azure. Cloud Manager habilita Accelerated Networking cuando actualice a 9.5 y cuando ponga en marcha nuevos sistemas 9.5.
+
+
+
+=== Compatibilidad con nuevas regiones de Azure
+
+Ahora puede implementar Cloud Volumes ONTAP en la región central de Francia.
+
+
+
+=== Soporte para el cifrado de volúmenes de NetApp en Azure
+
+https://www.netapp.com/us/media/ds-3899.pdf["Cifrado de volúmenes de NetApp (NVE)"^] es una tecnología basada en software para el cifrado de datos en reposo de un volumen a la vez. Se cifran datos, copias Snapshot y metadatos. El acceso a los datos se proporciona mediante una clave XTS-AES-256 exclusiva, una por volumen.
+
+En este momento, Cloud Volumes ONTAP admite el cifrado de volúmenes de NetApp con un servidor de gestión de claves externo. No se admite un administrador de claves incorporado. Los administradores de claves compatibles se encuentran en la http://mysupport.netapp.com/matrix["Herramienta de matriz de interoperabilidad de NetApp"^] Bajo la solución *Key Managers*.
+
+Debe configurar el cifrado de volúmenes de NetApp desde la interfaz de línea de comandos. A continuación, puede usar la interfaz de línea de comandos o System Manager para habilitar el cifrado en volúmenes específicos. Cloud Manager no admite el cifrado de volúmenes de NetApp en este momento.
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-volumes.html["Descubra cómo configurar el cifrado de volúmenes de NetApp"^]
+
+
+
+== Notas de actualización
+
+* Las actualizaciones de Cloud Volumes ONTAP se deben completar desde Cloud Manager. No debe actualizar Cloud Volumes ONTAP con System Manager o CLI. Hacerlo puede afectar a la estabilidad del sistema.
+* Puede actualizar a Cloud Volumes ONTAP 9.5 desde la versión 9.4.
+* La actualización de un único sistema de nodos desconecta el sistema hasta 25 minutos, durante los cuales se interrumpe la I/O.
+* Actualizar un par de alta disponibilidad no provoca interrupciones y la I/o se realiza de forma ininterrumpida. Durante este proceso de actualización no disruptiva, cada nodo se actualiza conjuntamente para seguir proporcionando I/o a los clientes.
+
