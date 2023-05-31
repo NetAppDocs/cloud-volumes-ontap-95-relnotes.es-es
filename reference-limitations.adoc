@@ -112,7 +112,7 @@ Cuando un nodo se reinicia, el partner debe sincronizar los datos para que pueda
 
 === Limitaciones en el entorno de AWS C2S
 
-Vea las limitaciones en los documentos de Cloud Manager: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws-c2s.html["Póngase en marcha en el entorno AWS C2S"^]
+Vea las limitaciones en los documentos de Cloud Manager: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-aws-c2s.html["Póngase en marcha en el entorno AWS C2S"^]
 
 
 
