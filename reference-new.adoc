@@ -187,7 +187,7 @@ Más información acerca de https://aws.amazon.com/ec2/instance-types/m5/["Insta
 
 === Soporte para el cifrado de volúmenes de NetApp en AWS
 
-https://www.netapp.com/us/media/ds-3899.pdf["Cifrado de volúmenes de NetApp (NVE)"^] es una tecnología basada en software para el cifrado de datos en reposo de un volumen a la vez. Se cifran datos, copias Snapshot y metadatos. El acceso a los datos se proporciona mediante una clave XTS-AES-256 exclusiva, una por volumen.
+https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf["Cifrado de volúmenes de NetApp (NVE)"^] es una tecnología basada en software para el cifrado de datos en reposo de un volumen a la vez. Se cifran datos, copias Snapshot y metadatos. El acceso a los datos se proporciona mediante una clave XTS-AES-256 exclusiva, una por volumen.
 
 En este momento, Cloud Volumes ONTAP admite el cifrado de volúmenes de NetApp con un servidor de gestión de claves externo. No se admite un administrador de claves incorporado. Los administradores de claves compatibles se encuentran en la http://mysupport.netapp.com/matrix["Herramienta de matriz de interoperabilidad de NetApp"^] Bajo la solución *Key Managers*.
 
@@ -250,7 +250,7 @@ Ahora puede implementar Cloud Volumes ONTAP en la región central de Francia.
 
 === Soporte para el cifrado de volúmenes de NetApp en Azure
 
-https://www.netapp.com/us/media/ds-3899.pdf["Cifrado de volúmenes de NetApp (NVE)"^] es una tecnología basada en software para el cifrado de datos en reposo de un volumen a la vez. Se cifran datos, copias Snapshot y metadatos. El acceso a los datos se proporciona mediante una clave XTS-AES-256 exclusiva, una por volumen.
+https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf["Cifrado de volúmenes de NetApp (NVE)"^] es una tecnología basada en software para el cifrado de datos en reposo de un volumen a la vez. Se cifran datos, copias Snapshot y metadatos. El acceso a los datos se proporciona mediante una clave XTS-AES-256 exclusiva, una por volumen.
 
 En este momento, Cloud Volumes ONTAP admite el cifrado de volúmenes de NetApp con un servidor de gestión de claves externo. No se admite un administrador de claves incorporado. Los administradores de claves compatibles se encuentran en la http://mysupport.netapp.com/matrix["Herramienta de matriz de interoperabilidad de NetApp"^] Bajo la solución *Key Managers*.
 
