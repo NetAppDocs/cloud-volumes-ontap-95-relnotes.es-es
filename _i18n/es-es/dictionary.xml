@@ -365,13 +365,11 @@
   <block id="1aa6c2acb5444fe5b5a93f7daa554347" category="cell">Capacidad máxima del sistema</block>
   <block id="b77f0f3e9fd2f5fef4d366d77b1ef0cf" category="list-text">La organización en niveles de datos no es compatible con los pares de alta disponibilidad.</block>
   <block id="86356f570acc8683cfbf184efa49892d" category="summary">En estas notas de la versión, se describen las nuevas funciones, las limitaciones y los problemas conocidos específicos de Cloud Volumes ONTAP 9.5.</block>
-  <block id="543ec7e9ddd2b6bc0d9506114c6dda6f" category="doc">Notas de la versión de Cloud Volumes ONTAP 9.5</block>
   <block id="34515f1d88b10d0db0a78eba6c533394" category="summary">Los problemas conocidos identifican problemas por los que el uso correcto de esta versión del producto puede resultar imposible.</block>
   <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="doc">Problemas conocidos</block>
   <block id="514c35ac615c3426962d39f27b71014b" category="paragraph">No existen problemas conocidos en esta versión específicos de Cloud Volumes ONTAP.</block>
   <block id="626a7cbe056796bcb1c158b143866230" category="inline-link">Notas de la versión de ONTAP</block>
   <block id="398d7dd4fa02e30dc6322ad98eff7d2b" category="paragraph">Es posible encontrar problemas conocidos del software ONTAP en el<block ref="13c0668cefb5d13050e1de01793dacbb" category="inline-link-rx"></block>.</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">Página principal de las notas de la versión</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novedades</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Manos a la obra</block>
   <block id="e19968c5ebc4b94a271992f4b0563be8" category="sidebar">Configuraciones y límites</block>
@@ -400,4 +398,5 @@
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="7c9d324d1d8b491ad2ad038c3ae1a08d" category="paragraph"><block ref="88f79bf25d1193134b67da843a562378" category="inline-link-rx"></block> es una tecnología basada en software para el cifrado de datos en reposo de un volumen a la vez. Se cifran datos, copias Snapshot y metadatos. El acceso a los datos se proporciona mediante una clave XTS-AES-256 exclusiva, una por volumen.</block>
+  <block id="768e5fecad4c27b08f9ffd5fd34e1330" category="sidebar">Notas de la versión de Cloud Volumes ONTAP 9,5</block>
 </blocks>
