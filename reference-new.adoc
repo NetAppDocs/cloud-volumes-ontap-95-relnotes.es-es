@@ -104,7 +104,7 @@ NOTE: Cloud Volumes ONTAP no admite el recalentamiento de la caché después de 
 
 Ahora se admiten pares de ALTA DISPONIBILIDAD en la región central de EE. UU. En Azure.
 
-https://cloud.netapp.com/cloud-volumes-global-regions["Consulte la lista completa de las regiones de Azure admitidas"^].
+https://bluexp.netapp.com/cloud-volumes-global-regions["Consulte la lista completa de las regiones de Azure admitidas"^].
 
 
 
@@ -133,7 +133,7 @@ La versión de GA está disponible en la mayoría de regiones de Azure con la ex
 
 En estas regiones, el mantenimiento puede impedir la creación de Cloud Volumes ONTAP y evitar que se produzca la conmutación por error. Tenemos previsto apoyar estas regiones tan pronto como finalice el mantenimiento.
 
-https://cloud.netapp.com/cloud-volumes-global-regions["Consulte una lista completa de las regiones de Azure compatibles"^].
+https://bluexp.netapp.com/cloud-volumes-global-regions["Consulte una lista completa de las regiones de Azure compatibles"^].
 
 
 

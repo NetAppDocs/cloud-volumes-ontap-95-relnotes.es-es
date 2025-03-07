@@ -82,7 +82,7 @@ Notas:
 . Al seleccionar un tipo de instancia de EC2, puede especificar si es una instancia compartida o una instancia dedicada.
 . Las unidades de disco duro frías no son compatibles con parejas de alta disponibilidad.
 . El rendimiento de escritura mejorado se habilita al usar unidades SSD de EBS con Cloud Volumes ONTAP Standard, Premium y BYOL.
-. Para obtener información sobre compatibilidad con regiones de AWS, consulte https://cloud.netapp.com/cloud-volumes-global-regions["Regiones globales de Cloud Volumes"^].
+. Para obtener soporte de región de AWS, consulte https://bluexp.netapp.com/cloud-volumes-global-regions["Regiones globales de Cloud Volumes"^].
 
 
 
@@ -130,7 +130,7 @@ Notas:
 . Si se habilita la clasificación por niveles de datos, el límite de capacidad de un sistema permanece igual. El límite de capacidad incluye tanto discos como almacenamiento de objetos.
 . La organización en niveles de datos no se admite con el tipo de máquina virtual DS3_v2.
 . Se habilita el rendimiento de escritura mejorado cuando se utilizan discos de almacenamiento Premium de Azure, pero no cuando se utiliza el tipo de máquina virtual DS3_v2.
-. Para obtener información sobre la compatibilidad con Azure region, consulte https://cloud.netapp.com/cloud-volumes-global-regions["Regiones globales de Cloud Volumes"^].
+. Para obtener soporte de región de Azure, consulte https://bluexp.netapp.com/cloud-volumes-global-regions["Regiones globales de Cloud Volumes"^].
 
 
 
@@ -169,5 +169,5 @@ Puede elegir entre las siguientes configuraciones al poner en marcha Cloud Volum
 Notas:
 
 . La organización en niveles de datos no es compatible con los pares de alta disponibilidad.
-. Para obtener información sobre la compatibilidad con Azure region, consulte https://cloud.netapp.com/cloud-volumes-global-regions["Regiones globales de Cloud Volumes"^].
+. Para obtener soporte de región de Azure, consulte https://bluexp.netapp.com/cloud-volumes-global-regions["Regiones globales de Cloud Volumes"^].
 

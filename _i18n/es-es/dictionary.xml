@@ -44,7 +44,6 @@
   <block id="fe6df44a9d70c01de724da265530b0d2" category="section-title">Soporte DE ALTA DISPONIBILIDAD en la región Azure Central US (25 de marzo de 2019)</block>
   <block id="1417340e9f15685d8f4814b72dd81c2d" category="paragraph">Ahora se admiten pares de ALTA DISPONIBILIDAD en la región central de EE. UU. En Azure.</block>
   <block id="4a977616fcd7ade62dbf55a1f8db1bd0" category="inline-link">Consulte la lista completa de las regiones de Azure admitidas</block>
-  <block id="07a1c66013de0c57f2bd7d69d3354c41" category="paragraph"><block ref="0f846b36f06a975303e325a2ffb2c92b" category="inline-link-rx"></block>.</block>
   <block id="a214545074aff7a12db7be5c3411e5f3" category="section-title">9.5 parche P1 (18 de marzo de 2019)</block>
   <block id="86b05ab8e0392045b506cb6f3482ac50" category="paragraph">La versión del parche P1 9.5 para Cloud Volumes ONTAP ya está disponible para todas las configuraciones. Cloud Manager le solicitará que actualice sus sistemas existentes a esta versión de revisión.</block>
   <block id="e32ea6753fc1e0dc2dafd4f1157260e0" category="paragraph">Si ya tiene un par de alta disponibilidad en Azure, NetApp se pondrá en contacto con usted para ayudarle a aplicar la versión de revisión P1.</block>
@@ -60,7 +59,6 @@
   <block id="e74523dfd57d69116c6dc03759fe0a7b" category="list-text">Centro Oeste de Estados Unidos</block>
   <block id="a8893363a2924d8d1c0816bdb4a0ee72" category="paragraph">En estas regiones, el mantenimiento puede impedir la creación de Cloud Volumes ONTAP y evitar que se produzca la conmutación por error. Tenemos previsto apoyar estas regiones tan pronto como finalice el mantenimiento.</block>
   <block id="bc65177d9fd008caca5b0105a76cd89b" category="inline-link">Consulte una lista completa de las regiones de Azure compatibles</block>
-  <block id="a98fce804b2db5bb3bc16f3fd91e4894" category="paragraph"><block ref="b01a780abce559d6649a48ba9b858ca7" category="inline-link-rx"></block>.</block>
   <block id="5c3ae5e8064b906f78f689ea334bf839" category="section-title">9.5 GA para AWS y Azure (4 de febrero de 2019)</block>
   <block id="a2a629c8cd8ceb36484d412d0c24dd87" category="paragraph">La versión de disponibilidad general (GA) de Cloud Volumes ONTAP 9.5 ahora está disponible en AWS y Microsoft Azure (para sistemas de un solo nodo en Azure). La versión de GA incluye correcciones de estabilidad, funciones nuevas y obsoletas en AWS y un cambio en los límites de capacidad del sistema.</block>
   <block id="a37b0234f6bd7d4e970efabe8c66add0" category="section-title">Límite de capacidad de 368 TB para todas las configuraciones Premium y BYOL</block>
@@ -312,7 +310,6 @@
   <block id="bd9f3210b7c4e1dfb162268596a29363" category="list-text">NFSv4 no es compatible. NFSv3 es compatible.</block>
   <block id="74522068eb4d7b9d888846015e92c07a" category="list-text">En algunas regiones no se admiten pares DE HA.</block>
   <block id="1538d38eb23a96781db500ec7bd30195" category="inline-link">Consulte la lista de regiones de Azure admitidas</block>
-  <block id="f5b8e6c4c4b082cf610f078e361a727f" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block>.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">Los avisos legales proporcionan acceso a las declaraciones de copyright, marcas comerciales, patentes y mucho más.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legales</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Derechos de autor</block>
@@ -348,7 +345,6 @@
   <block id="90088be3adb232b22e0087f5c0dfa678" category="list-text">Las unidades de disco duro frías no son compatibles con parejas de alta disponibilidad.</block>
   <block id="17105d87ead215069c8de1fbcc539db6" category="list-text">El rendimiento de escritura mejorado se habilita al usar unidades SSD de EBS con Cloud Volumes ONTAP Standard, Premium y BYOL.</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Regiones globales de Cloud Volumes</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="list-text">Para obtener información sobre compatibilidad con regiones de AWS, consulte<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="2544021bbaa4bc6eadfddbb17edf7811" category="section-title">Cloud Volumes ONTAP para Azure</block>
   <block id="439b8a07189772d0c98983ce22685918" category="paragraph">En Azure, puede poner en marcha Cloud Volumes ONTAP como un sistema de un solo nodo o como un par de alta disponibilidad.</block>
   <block id="078325cc35a9c8c9290e445f32bd1855" category="section-title">Sistemas de un solo nodo</block>
@@ -357,7 +353,6 @@
   <block id="50bb513ae39b44421d182e4072a83998" category="cell">Discos duros estándar gestionados, discos SSD estándar gestionados y discos SSD Premium gestionados, hasta 32 TIB por disco</block>
   <block id="d448e5e37b82dc9cd3ec041340cd7253" category="list-text">La organización en niveles de datos no se admite con el tipo de máquina virtual DS3_v2.</block>
   <block id="d6b23a41a85f490ae75b43cb4095d8c0" category="list-text">Se habilita el rendimiento de escritura mejorado cuando se utilizan discos de almacenamiento Premium de Azure, pero no cuando se utiliza el tipo de máquina virtual DS3_v2.</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">Para obtener información sobre la compatibilidad con Azure region, consulte<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="b049fcbe8198301adc6bf87634a02845" category="section-title">Parejas de HA</block>
   <block id="a2f04bcb45cecb780dad3d2795f4e080" category="paragraph">Puede elegir entre las siguientes configuraciones al poner en marcha Cloud Volumes ONTAP como pareja de alta disponibilidad en Azure:</block>
   <block id="aa7f77e663b832d5b0e544c5511e680c" category="cell">No admitido</block>
@@ -399,4 +394,9 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="7c9d324d1d8b491ad2ad038c3ae1a08d" category="paragraph"><block ref="88f79bf25d1193134b67da843a562378" category="inline-link-rx"></block> es una tecnología basada en software para el cifrado de datos en reposo de un volumen a la vez. Se cifran datos, copias Snapshot y metadatos. El acceso a los datos se proporciona mediante una clave XTS-AES-256 exclusiva, una por volumen.</block>
   <block id="768e5fecad4c27b08f9ffd5fd34e1330" category="sidebar">Notas de la versión de Cloud Volumes ONTAP 9,5</block>
+  <block id="16037845f27c88646572392cae4cc963" category="paragraph"><block ref="26f113c6240bf0450440356676516cf1" category="inline-link-rx"></block>.</block>
+  <block id="045622dfb07c6145c4ccaf9f2078e56b" category="paragraph"><block ref="782e925b243dc89a59a0bc67d50ce99b" category="inline-link-rx"></block>.</block>
+  <block id="f99c30ec26c64d7fcf92dc4cc9aba95f" category="paragraph"><block ref="71d5ab1d1cf6cb7dfc6c6d8e7906da1b" category="inline-link-rx"></block>.</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="list-text">Para obtener soporte de región de AWS, consulte<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">Para obtener soporte de región de Azure, consulte<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
 </blocks>
